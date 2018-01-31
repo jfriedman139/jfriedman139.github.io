@@ -18489,7 +18489,7 @@ if (typeof Object.create !== 'function') {
 
 				$.ajax({
 					type: 'POST',
-					url: 'assets/php/contact.php',
+					url: 'https://formspree.io/jfriedman139@gmail.com',
 					dataType: 'json',
 					data: {
 						name: name,

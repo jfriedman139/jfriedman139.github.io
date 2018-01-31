@@ -30,7 +30,7 @@
 						name: name,
 						email: email,
 						phone: phone,
-						message: message,
+						message: message
 					},
 					cache: false,
 					beforeSend: function(result) {

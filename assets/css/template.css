@@ -44,6 +44,10 @@ img {
     height: auto;
 }
 
+#prof-pic {
+    border-radius: 50%;
+}
+
 iframe {
     border: 0;
 }
@@ -1637,7 +1641,7 @@ button {
     border-radius: 3px;
     position: relative;
     /*border: 1px solid #eee;*/
-    box-shadow: 0 0 60px 0 rgba(0, 0, 0, .07);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     transition: .2s linear;
 }
 
