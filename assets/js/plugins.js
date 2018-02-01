@@ -18481,6 +18481,7 @@ if (typeof Object.create !== 'function') {
 
 				var submit          = $('#contact-form submit');
 				var ajaxResponse    = $('#contact-response');
+                var formTitle       = $('#form-title');
 
 				var name            = $('#contact-form [name="name"]').val();
 				var email           = $('#contact-form [name="email"]').val();
@@ -18505,6 +18506,7 @@ if (typeof Object.create !== 'function') {
 					success: function(result) {
 						ajaxResponse.fadeIn(500);
 				        $form.fadeOut(500);
+                        formTitle.fadeOut(500);
 					}
 				});
 			}
