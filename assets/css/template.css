@@ -431,6 +431,10 @@ pre {
 [Forms]
 */
 
+#contact-response {
+    display: none;
+}
+
 .form-control {
     background: transparent;
     box-shadow: none;
@@ -483,7 +487,7 @@ select.form-control-sm:not([size]):not([multiple]) {
 }
 
 .help-block.text-danger {
-    color: #828282 !important;
+    /*color: #828282 !important;*/
 }
 
 .help-block ul,
