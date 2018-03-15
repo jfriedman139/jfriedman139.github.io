@@ -2877,6 +2877,10 @@ button {
 [Portfolio Single Item]
 */
 
+.portfolio-space {
+    margin-top: 67px;
+}
+
 .portfolio-item {
     float: left;
     width: 100%;
